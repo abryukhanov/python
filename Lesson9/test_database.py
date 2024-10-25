@@ -6,7 +6,7 @@ import pytest
 
 @pytest.fixture(scope="module")
 def engine():
-    # Укажите строку подключения к вашей базе данных
+   
     db_url = f"postgresql://postgres:54937814As@localhost:5432/python_lesson9"
     return create_engine(db_url)
 
